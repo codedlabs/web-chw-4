@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>حاسبة الدرجات 🎓🎓</title>
+  </head>
+  <body>
+    <!-- السؤال الأول -->
+    <div class="wrapper">
+      <h1>الحاسبة 🔢</h1>
+
+      <div class="directions">أدخل درجاتك، كل درجة في الحقل الخاص بها</div>
+
+      <input id="Geology" type="text" />
+      <input id="Math" type="text" />
+      <input id="English" type="text" />
+      <input id="Physics" type="text" />
+      <input id="Biology" type="text" />
+
+      <input
+        id="submitButton"
+        type="button"
+        value="calculate"
+        onClick="submit()"
+      />
+
+      <p>متوسط درجاتك هو</p>
+      <div id="avg_grades"></div>
+
+      <p>درجتك النهائية هي (بالأحرف)</p>
+      <div id="final_grade"></div>
+    </div>
+  </body>
+</html>
